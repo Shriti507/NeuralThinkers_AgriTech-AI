@@ -196,7 +196,7 @@ def show_farmer_dashboard():
         left_col, right_col = st.columns([1, 1])
 
         with left_col:
-            st.markdown("### AI Recommended Actions")
+            st.markdown("### AI Recommended Action")
             
             action_plan = st.session_state.get('action_plan', [])
             if not action_plan:
